@@ -416,3 +416,70 @@ a {
 .popular .course-item .btn-book:hover {
   background: var(--primary-color);
 }
+
+/* ===================feedback left=================== */
+.feedback {
+  margin-top: 135px;
+  padding: 96px 0;
+  background: #2e2100;
+}
+
+.feedback-item {
+  display: flex;
+}
+
+.feedback-item .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.feedback-item .info .member-name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1.42;
+}
+
+.feedback-item .info .desc {
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+
+.feedback-item .info .dots {
+  gap: 6px;
+  display: flex;
+  margin-top: 28px;
+}
+
+.feedback-item .dot.active {
+  background: var(--primary-color);
+  cursor: default;
+}
+
+.feedback-item .dot {
+  width: 6px;
+  height: 6px;
+  background: #634700;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.feedback-item .content {
+  width: 66%;
+  margin-left: auto;
+}
+
+.feedback-item blockquote {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 1.54;
+}
